@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-// import "@styles/_global.scss";
+import "@styles/_global.scss";
 
 export const metadata: Metadata = {
   title: "Excel Compare",
