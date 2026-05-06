@@ -1,5 +1,5 @@
 // @use "./fonts";
-// @use "./colors";
+@use "./colors";
 
 // label, input, span, p, textarea, button {
 //   @include fonts.text-medium;
@@ -43,6 +43,6 @@
 //   list-style: none;
 // }
 
-html, body { margin: 0; padding: 0; /* background: var(--background); */ }
+html, body { margin: 0; padding: 0; background: var(--background); }
 
 
